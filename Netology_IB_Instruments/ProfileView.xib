@@ -22,20 +22,20 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TheHomeworkIsBS" id="M15-Ir-xju">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TheHomeworkIsBS" id="M15-Ir-xju" userLabel="ProfilePicture">
                     <rect key="frame" x="15" y="69" width="238" height="247"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tfK-wD-3bB">
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tfK-wD-3bB" userLabel="SomeRandomText">
                     <rect key="frame" x="15" y="360" width="422" height="385"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <mutableString key="text">Наша семантическая ценность падает!! Субморфы уже покинули нас, а почти все морфонемы погибли в битве с дериватемой. Она наступает, я чувствую, как паника охватывает меня и поглощает. Нас окружили. Кирпичарус уже рассыпался под ногами и связал себя корнем с категорией состояния. Наречие расщепляется и теряет неизменяемость. 
+                    <string key="text">Наша семантическая ценность падает!! Субморфы уже покинули нас, а почти все морфонемы погибли в битве с дериватемой. Она наступает, я чувствую, как паника охватывает меня и поглощает. Нас окружили. Кирпичарус уже рассыпался под ногами и связал себя корнем с категорией состояния. Наречие расщепляется и теряет неизменяемость. 
 Категория и явление объединились против нас. Вперед вышла нуль-связка. Она предлагает сдаться, тогда она позволит нам склоняться к аналитизму. Боюсь, нам придется согласиться: наши аллофоны подходят к концу, помощи ждать нет смысла. Я ощущаю гнилой запах субъективной оценки...
 Двусоставное предложение разрушилось. Мы перешли в другой разряд. 
 Это конец. Теперь мы коммуникативы.
 Унирадиксойды правят миром.
-Аминь.</mutableString>
+Аминь.</string>
                     <color key="textColor" systemColor="labelColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
