@@ -8,6 +8,7 @@
 import UIKit
 
 class ProfileView: UIView {
+    
     @IBOutlet weak var profilePicture: UIImageView!
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var birthdayDate: UILabel!
