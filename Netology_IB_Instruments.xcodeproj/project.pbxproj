@@ -13,6 +13,10 @@
 		EFDC01C026498C0600B8F32A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDC01BE26498C0600B8F32A /* Main.storyboard */; };
 		EFDC01C226498C0700B8F32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDC01C126498C0700B8F32A /* Assets.xcassets */; };
 		EFDC01C526498C0700B8F32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDC01C326498C0700B8F32A /* LaunchScreen.storyboard */; };
+		EFDC01CD26498E3900B8F32A /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDC01CC26498E3900B8F32A /* ProfileView.xib */; };
+		EFDC01CF264993C800B8F32A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC01CE264993C800B8F32A /* ProfileView.swift */; };
+		EFDC01D12649942C00B8F32A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDC01D02649942C00B8F32A /* Profile.storyboard */; };
+		EFDC01D32649946800B8F32A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC01D22649946800B8F32A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EFDC01C126498C0700B8F32A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDC01C426498C0700B8F32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDC01C626498C0700B8F32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDC01CC26498E3900B8F32A /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		EFDC01CE264993C800B8F32A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EFDC01D02649942C00B8F32A /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		EFDC01D22649946800B8F32A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				EFDC01B826498C0600B8F32A /* AppDelegate.swift */,
 				EFDC01BA26498C0600B8F32A /* SceneDelegate.swift */,
 				EFDC01BC26498C0600B8F32A /* ViewController.swift */,
+				EFDC01CC26498E3900B8F32A /* ProfileView.xib */,
+				EFDC01CE264993C800B8F32A /* ProfileView.swift */,
+				EFDC01D02649942C00B8F32A /* Profile.storyboard */,
+				EFDC01D22649946800B8F32A /* ProfileViewController.swift */,
 				EFDC01BE26498C0600B8F32A /* Main.storyboard */,
 				EFDC01C126498C0700B8F32A /* Assets.xcassets */,
 				EFDC01C326498C0700B8F32A /* LaunchScreen.storyboard */,
@@ -124,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDC01CD26498E3900B8F32A /* ProfileView.xib in Resources */,
 				EFDC01C526498C0700B8F32A /* LaunchScreen.storyboard in Resources */,
+				EFDC01D12649942C00B8F32A /* Profile.storyboard in Resources */,
 				EFDC01C226498C0700B8F32A /* Assets.xcassets in Resources */,
 				EFDC01C026498C0600B8F32A /* Main.storyboard in Resources */,
 			);
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDC01CF264993C800B8F32A /* ProfileView.swift in Sources */,
 				EFDC01BD26498C0600B8F32A /* ViewController.swift in Sources */,
+				EFDC01D32649946800B8F32A /* ProfileViewController.swift in Sources */,
 				EFDC01B926498C0600B8F32A /* AppDelegate.swift in Sources */,
 				EFDC01BB26498C0600B8F32A /* SceneDelegate.swift in Sources */,
 			);
